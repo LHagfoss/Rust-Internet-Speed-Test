@@ -1,1 +1,0 @@
-impl futures_core::stream::Stream<Item = Result<bytes::bytes::Bytes, reqwest::Error>>
