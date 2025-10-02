@@ -1,6 +1,6 @@
 # Internet Speed Test
 
-![Header Image](./image.pngg)
+![Header Image](./image.png)
 
 ## Description
 
