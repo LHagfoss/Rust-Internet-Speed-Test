@@ -1,15 +1,14 @@
 {
-  "timestamp": "2025-08-20T21:34:43.964915+00:00",
+  "timestamp": "2025-10-02T08:30:31.617805+00:00",
   "url": "https://nbg1-speed.hetzner.com/100MB.bin",
   "test_duration_seconds": 10,
   "test_file_size": "Mb100",
-  "total_data_downloaded_mb": 119.20281982421875,
-  "total_time_elapsed_seconds": 10.001580375,
-  "average_download_speed_mbps": 99.97877240475609,
-  "min_download_speed_mbps": 76.0151714241154,
-  "max_download_speed_mbps": 106.43762609984964,
+  "total_data_downloaded_mb": 16.04656982421875,
+  "total_time_elapsed_seconds": 10.073821792,
+  "average_download_speed_mbps": 13.36219627261002,
+  "min_download_speed_mbps": 13.362896774577,
+  "max_download_speed_mbps": 13.362896774577,
   "chunk_speeds_mbps": [
-    106.43762609984964,
-    76.0151714241154
+    13.362896774577
   ]
 }

@@ -1,6 +1,7 @@
-use clap::{Parser, ValueEnum};
+use clap::ValueEnum;
+use serde::{Deserialize, Serialize};
 
-#[derive(ValueEnum, Debug, Clone)]
+#[derive(ValueEnum, Debug, Clone, Serialize, Deserialize)]
 pub enum FileSize {
     #[value(name = "100MB")]
     Mb100,
@@ -8,14 +9,4 @@ pub enum FileSize {
     Gb1,
     #[value(name = "10GB")]
     Gb10,
-}
-
-#[derive(Parser, Debug)]
-#[command(author, version, about, long_about = None)]
-pub struct Args {
-    #[arg(short, long, value_enum, default_value_t = FileSize::Mb100)]
-    pub size: FileSize,
-
-    #[arg(short, long, default_value_t = 10, value_parser = clap::value_parser!(u64).range(1..=60))]
-    pub duration: u64,
 }
